@@ -132,7 +132,7 @@ function findShortestPath(coordString, goal) {
       let path = current;
       let previous = visitedSquares[current];
       while (!(previous === null)) {
-        path = previous + path;
+        path = previous + " " + path;
         previous = visitedSquares[previous];
       }
       visitedSquares = {};
