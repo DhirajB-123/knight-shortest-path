@@ -1,16 +1,68 @@
+body {
+	background-color: darkgrey;
+	margin: 0px;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #board {
-  display: grid;
-  grid-row: 8;
-  grid-template-rows: repeat(8, 100px);
-  grid-template-columns: repeat(8, 100px);
+	padding-top: 50px;
+	display: grid;
+	/* grid-row: 8; */
+	grid-template-rows: repeat(9, 100px);
+	grid-template-columns: repeat(9, 100px);
+	font-size: 25px;
+}
+
+#board > * {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#gameboard {
+	outline: black solid 10px;
+	grid-column-start: 2;
+	grid-column-end: span 8;
+	grid-row-start: 1;
+	grid-row-end: span 8;
+	display: grid;
+	grid-template-columns: repeat(8, 100px);
+	grid-template-rows: repeat(8, 100px);
+}
+
+#msg {
+	width: 550px;
 }
 
 .square {
-  height: 100%;
-  width: 100%;
-  background-color: tan;
+	height: 100%;
+	width: 100%;
+	background-color: tan;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
 }
 
 .dark {
-  background-color: darkolivegreen;
+	background-color: darkolivegreen;
+}
+
+.selected {
+	background-color: black;
+}
+
+.blocked {
+	background-color: rgb(161, 48, 48);
+}
+
+.path {
+	background-color: rgb(184, 184, 184);
 }
