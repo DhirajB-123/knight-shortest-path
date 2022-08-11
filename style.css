@@ -1,0 +1,16 @@
+#board {
+  display: grid;
+  grid-row: 8;
+  grid-template-rows: repeat(8, 100px);
+  grid-template-columns: repeat(8, 100px);
+}
+
+.square {
+  height: 100%;
+  width: 100%;
+  background-color: tan;
+}
+
+.dark {
+  background-color: darkolivegreen;
+}
