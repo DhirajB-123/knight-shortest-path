@@ -1,6 +1,6 @@
 # knight-shortest-path
 
-https://dhirajb-123.github.io/chessboard/
+https://dhirajb-123.github.io/knight-shortest-path/
  
 currently working on the display
 
