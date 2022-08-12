@@ -2,10 +2,4 @@
 
 https://dhirajb-123.github.io/knight-shortest-path/
  
-currently working on the display
-
-click a square to start from, and another to set as the goal
-
-coordinates are in an xy format
-
-for now to use this website users must open the console in order to see the shortest path
+ Click any 2 squares to find the shortest path between them! Right click any squares to prevent them from being included in the path.
